@@ -1,14 +1,26 @@
+<<<<<<< HEAD
 ﻿using Events.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+=======
+﻿using Microsoft.AspNetCore.Mvc;
+using Events.Data;
+using Events.Models;
+using Events.Service;
+>>>>>>> e2279c33a4a4ba36d7f7c936ff63007b307ad1fa
 
 namespace Events.Controllers
 {
     public class EventController : Controller
     {
-        public IActionResult Index()
+        private readonly EventService _eventService;
+        public EventController(EventService service)
         {
-            return View();
+            _eventService = service;
+        }
+        public async Task<IActionResult> Index()
+        {
+            return View(await _eventService.FindAllAsync());
         }
 
         //parte tirada do home controller - Tela de erro

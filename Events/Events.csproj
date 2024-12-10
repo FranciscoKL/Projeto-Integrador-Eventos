@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Remove="Data\**" />
     <Content Remove="Data\**" />
     <EmbeddedResource Remove="Data\**" />
@@ -17,4 +18,14 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
   </ItemGroup>
 
+=======
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.11">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
+  </ItemGroup>
+
+>>>>>>> e2279c33a4a4ba36d7f7c936ff63007b307ad1fa
 </Project>
