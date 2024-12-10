@@ -16,29 +16,24 @@ namespace Events.Models
         public int Capacity { get; set; }
         [Required(ErrorMessage = "O Valor é obrigatório")]
         public decimal Price { get; set; }
-
+        public Event()
+        {
+        }
+        public Event(int id, string name, DateTime date, string location, int capacity, decimal price)
+        {
+            Id = id;
+            Name = name;
+            Date = date;
+            Location = location;
+            Capacity = capacity;
+            Price = price;
+        }
     }
 }
 
 
 
-//1.Sistema de Gestão de Eventos
-
-//Descrição: Um sistema para gerenciar eventos como conferências, workshops, ou festas.
-
-//Entidades principais:
-
-//Evento: Nome, Data, Local, Capacidade Máxima, Preço.
-
-//Participante: Nome, E-mail, Telefone, Tipo de Ingresso, Status de Pagamento.
-
-//Organizador: Nome, Empresa, Contato, Email, CNPJ.
 
 
-//Funcionalidades:
 
-//Cadastro de eventos.
 
-//Registro de participantes.
-
-//Controle de lotação.
