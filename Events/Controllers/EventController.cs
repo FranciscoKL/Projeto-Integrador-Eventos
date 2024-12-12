@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Events.Data;
 using Events.Models;
 using Events.Service;
+using Humanizer.Localisation;
 
 namespace Events.Controllers
 {
@@ -18,7 +19,8 @@ namespace Events.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            return View(await _eventService.FindAllAsync());
+            List<Event> events = await _eventService.FindAllAsync();
+            return View(events);
         }
 
 

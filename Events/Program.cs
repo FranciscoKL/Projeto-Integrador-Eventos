@@ -1,4 +1,5 @@
 using Events.Data;
+using Events.Service;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,6 +21,7 @@ builder.Services.AddDbContext<EventContext>(options =>
             )
     );
 });
+builder.Services.AddScoped<EventService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
