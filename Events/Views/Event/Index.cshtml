@@ -23,34 +23,14 @@
         {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Name)
-                </td>
-                 <td>
-                    <a 
-                        type="button"
-                        title="Detalhes"
-                        class="btn btn-outline-info px-2 py-1 rounded mx-1"
+                    
+                    <a                    
                         asp-action="Details"
                         asp-route-id="@item.Id">
-                        <i class="bi bi-list-ul"></i>
-                    </a>
-                    <a 
-                        type="button"
-                        title="Editar"
-                        class="btn btn-outline-warning px-2 py-1 rounded mx-1"
-                        asp-action="Edit"
-                        asp-route-id="@item.Id">
-                        <i class="bi bi-pencil-fill"></i>
-                   </a>
-                    <a 
-                        type="button"
-                        title="Excluir"
-                        class="btn btn-outline-danger px-2 py-1 rounded mx-1"
-                        asp-action="Delete"
-                        asp-route-id="@item.Id">
-                        <i class="bi bi-trash-fill"></i>
+                        @Html.DisplayFor(modelItem => item.Name)                       
                     </a>
                 </td>
+                 
             </tr>
         }
     </tbody>
