@@ -6,14 +6,19 @@ namespace Events.Models
     {
         public int Id { get; set; }
         [Required(ErrorMessage = "O Nome é obrigatório.")]
+        [Display(Name="Nome")]
         public string Name { get; set; }
         [Required(ErrorMessage = "A Data é obrigatória.")]
+        [Display(Name = "Data")]
         public DateTime Date { get; set; }
         [Required(ErrorMessage = "O Local é obrigatório.")]
+        [Display(Name = "Local")]
         public string Location { get; set; }
         [Required(ErrorMessage = "A capacidade é obrigatória")]
+        [Display(Name = "Capacidade")]
         public int Capacity { get; set; }
         [Required(ErrorMessage = "O Valor é obrigatório")]
+        [Display(Name = "Preço")]
         public double Price { get; set; }
         public Event()
         {
