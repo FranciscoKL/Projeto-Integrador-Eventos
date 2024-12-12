@@ -116,35 +116,5 @@ namespace Events.Controllers
                 return RedirectToAction(nameof(Error), new { message = ex.Message });
             }
         }
-
-        // POST: Genres/Edit/x
-        public async Task UpdateAsync(Event events)
-        {
-            bool hasAny = await _context.Genres.AnyAsync(x => x.Id == events.Id);
-            if (!hasAny)
-            {
-                throw new NotFoundException("Id não encontrado");
-            }
-            // Tenta atualizar
-            try
-            {
-                _context.Update(genre);
-                await _context.SaveChangesAsync();
-            }
-            // Se não der, captura a exceção lançada
-            catch (DbUpdateConcurrencyException ex)
-            {
-                throw new DbConcurrencyException(ex.Message);
-            }
-        }
-        public IActionResult Error(string message)
-        {
-            var viewModel = new ErrorViewModel
-            {
-                Message = message,
-                RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier
-            };
-            return View(viewModel);
-        }
     }
 }
