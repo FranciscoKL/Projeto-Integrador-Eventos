@@ -1,13 +1,13 @@
-<<<<<<< HEAD
+
 ﻿using Events.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-=======
-﻿using Microsoft.AspNetCore.Mvc;
+
+
 using Events.Data;
 using Events.Models;
 using Events.Service;
->>>>>>> e2279c33a4a4ba36d7f7c936ff63007b307ad1fa
+
 
 namespace Events.Controllers
 {
@@ -22,6 +22,7 @@ namespace Events.Controllers
         {
             return View(await _eventService.FindAllAsync());
         }
+
 
         //parte tirada do home controller - Tela de erro
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

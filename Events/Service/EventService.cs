@@ -1,6 +1,9 @@
 ﻿using Events.Models;
 using Events.Data;
 using Microsoft.EntityFrameworkCore;
+using Events.Models.ViewModels;
+using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 
 namespace Events.Service
 {
@@ -16,5 +19,7 @@ namespace Events.Service
         {
            return await _context.Events.ToListAsync();
         }
+
+
     }
 }
