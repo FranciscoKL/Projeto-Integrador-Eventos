@@ -7,6 +7,8 @@ using Events.Data;
 using Events.Models;
 using Events.Service;
 using Humanizer.Localisation;
+using Events.Service.Exceptions;
+using System.Data;
 
 namespace Events.Controllers
 {
@@ -23,12 +25,126 @@ namespace Events.Controllers
             return View(events);
         }
 
-
-        //parte tirada do home controller - Tela de erro
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        // GET: Event/Create
+        public IActionResult Create()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View();
+        }
+
+        // POST Genres/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(Event events)
+        {
+            if(!ModelState.IsValid)
+            {
+                return View();
+            }
+
+            _eventService.InsertAsync(events);
+            return RedirectToAction(nameof(Index));
+        }
+
+        // GET Event/Delete
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id is null)
+            {
+                return RedirectToAction(nameof(Error), new { message = "Id não fornecido" });
+            }
+            var obj = await _eventService.FindByIdAsync(id.Value);
+            if (obj is null)
+            {
+                return RedirectToAction(nameof(Error), new { message = "Id não encontrado" });
+            }
+            return View(obj);
+        }
+
+        // POST Event/Delete
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Delete(int id)
+        {
+            try
+            {
+                await _eventService.RemoveAsync(id);
+                return RedirectToAction(nameof(Index));
+            }
+            catch (IntegrityException ex)
+            {
+                return RedirectToAction(nameof(Error), new { message =ex.Message});
+            }
+        }
+
+        // GET Event/Edit
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id is null)
+            {
+                return RedirectToAction(nameof(Error), new { message = "Id não fornecido" });
+            }
+            var obj = await _eventService.FindByIdAsync(id.Value);
+            if (obj is null)
+            {
+                return RedirectToAction(nameof(Error), new { message = "Id não encontrado" });
+            }
+            return View(obj);
+        }
+
+        // POST Event/Edit
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, Event events)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
+
+            if (id != events.Id)
+            {
+                return RedirectToAction(nameof(Error), new { message = "Id's não condizentes" });
+            }
+
+            try
+            {
+                await _eventService.UpdateAsync(events);
+                return RedirectToAction(nameof(Index));
+            }
+            catch (ApplicationException ex)
+            {
+                return RedirectToAction(nameof(Error), new { message = ex.Message });
+            }
+        }
+
+        // POST: Genres/Edit/x
+        public async Task UpdateAsync(Event events)
+        {
+            bool hasAny = await _context.Genres.AnyAsync(x => x.Id == events.Id);
+            if (!hasAny)
+            {
+                throw new NotFoundException("Id não encontrado");
+            }
+            // Tenta atualizar
+            try
+            {
+                _context.Update(genre);
+                await _context.SaveChangesAsync();
+            }
+            // Se não der, captura a exceção lançada
+            catch (DbUpdateConcurrencyException ex)
+            {
+                throw new DbConcurrencyException(ex.Message);
+            }
+        }
+        public IActionResult Error(string message)
+        {
+            var viewModel = new ErrorViewModel
+            {
+                Message = message,
+                RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier
+            };
+            return View(viewModel);
         }
     }
 }
