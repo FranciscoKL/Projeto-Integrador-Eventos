@@ -1,5 +1,4 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Events.Models
 {
@@ -15,11 +14,11 @@ namespace Events.Models
         [Required(ErrorMessage = "A capacidade é obrigatória")]
         public int Capacity { get; set; }
         [Required(ErrorMessage = "O Valor é obrigatório")]
-        public decimal Price { get; set; }
+        public double Price { get; set; }
         public Event()
         {
         }
-        public Event(int id, string name, DateTime date, string location, int capacity, decimal price)
+        public Event(int id, string name, DateTime date, string location, int capacity, double price)
         {
             Id = id;
             Name = name;
