@@ -9,6 +9,7 @@ using Events.Service;
 using Humanizer.Localisation;
 using Events.Service.Exceptions;
 using System.Data;
+using System.Reflection.Metadata.Ecma335;
 
 namespace Events.Controllers
 {
@@ -41,7 +42,7 @@ namespace Events.Controllers
                 return View();
             }
 
-            _eventService.InsertAsync(events);
+            await _eventService.InsertAsync(events);
             return RedirectToAction(nameof(Index));
         }
 
@@ -115,6 +116,30 @@ namespace Events.Controllers
             {
                 return RedirectToAction(nameof(Error), new { message = ex.Message });
             }
+        }
+
+        // GET: Event/Details
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id is null)
+            {
+                return RedirectToAction(nameof(Error), new { message = "Id não fornecido" });
+            }
+            var obj = await _eventService.FindByIdAsync(id.Value);
+            if (obj is null)
+            {
+                return RedirectToAction(nameof(Error), new { message = "Id não encontrado" });
+            }
+            return View(obj);
+        }
+        public IActionResult Error(string? message)
+        {
+            var viewModel = new ErrorViewModel
+            {
+                Message = message,
+                RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier
+            };
+            return View(viewModel);
         }
     }
 }
