@@ -1,5 +1,36 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@using Events.Models
+@model IEnumerable<Event>
 @{
+    ViewData["Title"] = "Evento na Hora!";
 }
+
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="Create"> Adicionar Novo Evento</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Name)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Event item in Model)
+        {
+            <tr>
+                <td>
+                    
+                    <a                    
+                        asp-action="Details"
+                        asp-route-id="@item.Id">
+                        @Html.DisplayFor(modelItem => item.Name)                       
+                    </a>
+                </td>
+                 
+            </tr>
+        }
+    </tbody>
+</table>

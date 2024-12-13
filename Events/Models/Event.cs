@@ -1,5 +1,4 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Events.Models
 {
@@ -7,38 +6,38 @@ namespace Events.Models
     {
         public int Id { get; set; }
         [Required(ErrorMessage = "O Nome é obrigatório.")]
+        [Display(Name="Nome")]
         public string Name { get; set; }
         [Required(ErrorMessage = "A Data é obrigatória.")]
+        [Display(Name = "Data")]
         public DateTime Date { get; set; }
         [Required(ErrorMessage = "O Local é obrigatório.")]
+        [Display(Name = "Local")]
         public string Location { get; set; }
-        [Required(ErrorMessage = "A capacidade é obrigatória")]
+        [Required(ErrorMessage = "A Capacidade é obrigatória")]
+        [Display(Name = "Capacidade")]
         public int Capacity { get; set; }
         [Required(ErrorMessage = "O Valor é obrigatório")]
-        public decimal Price { get; set; }
-
+        [Display(Name = "Preço")]
+        public double Price { get; set; }
+        public Event()
+        {
+        }
+        public Event(int id, string name, DateTime date, string location, int capacity, double price)
+        {
+            Id = id;
+            Name = name;
+            Date = date;
+            Location = location;
+            Capacity = capacity;
+            Price = price;
+        }
     }
 }
 
 
 
-//1.Sistema de Gestão de Eventos
-
-//Descrição: Um sistema para gerenciar eventos como conferências, workshops, ou festas.
-
-//Entidades principais:
-
-//Evento: Nome, Data, Local, Capacidade Máxima, Preço.
-
-//Participante: Nome, E-mail, Telefone, Tipo de Ingresso, Status de Pagamento.
-
-//Organizador: Nome, Empresa, Contato, Email, CNPJ.
 
 
-//Funcionalidades:
 
-//Cadastro de eventos.
 
-//Registro de participantes.
-
-//Controle de lotação.

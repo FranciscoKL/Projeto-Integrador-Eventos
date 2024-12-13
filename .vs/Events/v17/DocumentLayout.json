@@ -1,38 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\franc\\source\\repos\\Events\\",
+  "WorkspaceRootPath": "C:\\Users\\franc\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\Projeto-Integrador-Eventos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|c:\\users\\franc\\source\\repos\\events\\events\\views\\event\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|c:\\users\\franc\\onedrive\\\u00E1rea de trabalho\\projeto\\projeto-integrador-eventos\\events\\views\\event\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|solutionrelative:events\\views\\event\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|c:\\users\\franc\\onedrive\\\u00E1rea de trabalho\\projeto\\projeto-integrador-eventos\\events\\views\\event\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|solutionrelative:events\\views\\event\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|c:\\users\\franc\\onedrive\\\u00E1rea de trabalho\\projeto\\projeto-integrador-eventos\\events\\views\\event\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|solutionrelative:events\\views\\event\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|c:\\users\\franc\\onedrive\\\u00E1rea de trabalho\\projeto\\projeto-integrador-eventos\\events\\views\\event\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|solutionrelative:events\\views\\event\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|c:\\users\\franc\\onedrive\\\u00E1rea de trabalho\\projeto\\projeto-integrador-eventos\\events\\views\\event\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|solutionrelative:events\\views\\event\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|c:\\users\\franc\\source\\repos\\events\\events\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|c:\\users\\franc\\onedrive\\\u00E1rea de trabalho\\projeto\\projeto-integrador-eventos\\events\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|solutionrelative:events\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|c:\\users\\franc\\onedrive\\\u00E1rea de trabalho\\projeto\\projeto-integrador-eventos\\events\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|solutionrelative:events\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|c:\\users\\franc\\onedrive\\\u00E1rea de trabalho\\projeto\\projeto-integrador-eventos\\events\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|solutionrelative:events\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|c:\\users\\franc\\source\\repos\\events\\events\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|solutionrelative:events\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|c:\\users\\franc\\source\\repos\\events\\events\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|solutionrelative:events\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|c:\\users\\franc\\source\\repos\\events\\events\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|solutionrelative:events\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|c:\\users\\franc\\source\\repos\\events\\events\\models\\viewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|solutionrelative:events\\models\\viewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|c:\\users\\franc\\source\\repos\\events\\events\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|solutionrelative:events\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|c:\\users\\franc\\source\\repos\\events\\events\\service\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|c:\\users\\franc\\onedrive\\\u00E1rea de trabalho\\projeto\\projeto-integrador-eventos\\events\\service\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|solutionrelative:events\\service\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|c:\\users\\franc\\onedrive\\\u00E1rea de trabalho\\projeto\\projeto-integrador-eventos\\events\\data\\eventcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|solutionrelative:events\\data\\eventcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|c:\\users\\franc\\onedrive\\\u00E1rea de trabalho\\projeto\\projeto-integrador-eventos\\events\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{938B23E8-6ACD-478D-A3BB-48EE51E029BD}|Events\\Events.csproj|solutionrelative:events\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,19 +54,149 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\Projeto-Integrador-Eventos\\Events\\Views\\Event\\Details.cshtml",
+              "RelativeDocumentMoniker": "Events\\Views\\Event\\Details.cshtml",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\Projeto-Integrador-Eventos\\Events\\Views\\Event\\Details.cshtml",
+              "RelativeToolTip": "Events\\Views\\Event\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T01:19:23.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\Projeto-Integrador-Eventos\\Events\\Views\\Event\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Events\\Views\\Event\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\Projeto-Integrador-Eventos\\Events\\Views\\Event\\Edit.cshtml",
+              "RelativeToolTip": "Events\\Views\\Event\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T01:17:55.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\franc\\source\\repos\\Events\\Events\\.gitignore",
-              "RelativeDocumentMoniker": "Events\\.gitignore",
-              "ToolTip": "C:\\Users\\franc\\source\\repos\\Events\\Events\\.gitignore",
-              "RelativeToolTip": "Events\\.gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-07T17:55:57.441Z",
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\Projeto-Integrador-Eventos\\Events\\Views\\Event\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Events\\Views\\Event\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\Projeto-Integrador-Eventos\\Events\\Views\\Event\\Delete.cshtml",
+              "RelativeToolTip": "Events\\Views\\Event\\Delete.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T01:16:33.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\Projeto-Integrador-Eventos\\Events\\Views\\Event\\Create.cshtml",
+              "RelativeDocumentMoniker": "Events\\Views\\Event\\Create.cshtml",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\Projeto-Integrador-Eventos\\Events\\Views\\Event\\Create.cshtml",
+              "RelativeToolTip": "Events\\Views\\Event\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T00:43:54.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\Projeto-Integrador-Eventos\\Events\\Program.cs",
+              "RelativeDocumentMoniker": "Events\\Program.cs",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\Projeto-Integrador-Eventos\\Events\\Program.cs",
+              "RelativeToolTip": "Events\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T00:29:06.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EventContext.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\Projeto-Integrador-Eventos\\Events\\Data\\EventContext.cs",
+              "RelativeDocumentMoniker": "Events\\Data\\EventContext.cs",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\Projeto-Integrador-Eventos\\Events\\Data\\EventContext.cs",
+              "RelativeToolTip": "Events\\Data\\EventContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T00:18:52.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\Projeto-Integrador-Eventos\\Events\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "Events\\Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\Projeto-Integrador-Eventos\\Events\\Controllers\\EventController.cs",
+              "RelativeToolTip": "Events\\Controllers\\EventController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T23:29:27.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\Projeto-Integrador-Eventos\\Events\\Views\\Event\\Index.cshtml",
+              "RelativeDocumentMoniker": "Events\\Views\\Event\\Index.cshtml",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\Projeto-Integrador-Eventos\\Events\\Views\\Event\\Index.cshtml",
+              "RelativeToolTip": "Events\\Views\\Event\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T23:50:44.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\Projeto-Integrador-Eventos\\Events\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "Events\\Models\\Event.cs",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\Projeto-Integrador-Eventos\\Events\\Models\\Event.cs",
+              "RelativeToolTip": "Events\\Models\\Event.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T23:49:55.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\Projeto-Integrador-Eventos\\Events\\appsettings.json",
+              "RelativeDocumentMoniker": "Events\\appsettings.json",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\Projeto-Integrador-Eventos\\Events\\appsettings.json",
+              "RelativeToolTip": "Events\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-11T23:44:11.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EventService.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\Projeto-Integrador-Eventos\\Events\\Service\\EventService.cs",
+              "RelativeDocumentMoniker": "Events\\Service\\EventService.cs",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\\u00C1rea de Trabalho\\Projeto\\Projeto-Integrador-Eventos\\Events\\Service\\EventService.cs",
+              "RelativeToolTip": "Events\\Service\\EventService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T23:42:53.709Z",
               "EditorCaption": ""
             },
             {
@@ -64,93 +206,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\franc\\source\\repos\\Events\\Events\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Events\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\franc\\source\\repos\\Events\\Events\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Events\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T15:41:00.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EventController.cs",
-              "DocumentMoniker": "C:\\Users\\franc\\source\\repos\\Events\\Events\\Controllers\\EventController.cs",
-              "RelativeDocumentMoniker": "Events\\Controllers\\EventController.cs",
-              "ToolTip": "C:\\Users\\franc\\source\\repos\\Events\\Events\\Controllers\\EventController.cs",
-              "RelativeToolTip": "Events\\Controllers\\EventController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T14:59:30.169Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\franc\\source\\repos\\Events\\Events\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "Events\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "C:\\Users\\franc\\source\\repos\\Events\\Events\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "Events\\Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-07T15:27:28.897Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EventService.cs",
-              "DocumentMoniker": "C:\\Users\\franc\\source\\repos\\Events\\Events\\Service\\EventService.cs",
-              "RelativeDocumentMoniker": "Events\\Service\\EventService.cs",
-              "ToolTip": "C:\\Users\\franc\\source\\repos\\Events\\Events\\Service\\EventService.cs",
-              "RelativeToolTip": "Events\\Service\\EventService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T15:21:32.35Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\franc\\source\\repos\\Events\\Events\\Views\\Event\\Index.cshtml",
-              "RelativeDocumentMoniker": "Events\\Views\\Event\\Index.cshtml",
-              "ToolTip": "C:\\Users\\franc\\source\\repos\\Events\\Events\\Views\\Event\\Index.cshtml",
-              "RelativeToolTip": "Events\\Views\\Event\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-07T15:04:01.304Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Event.cs",
-              "DocumentMoniker": "C:\\Users\\franc\\source\\repos\\Events\\Events\\Models\\Event.cs",
-              "RelativeDocumentMoniker": "Events\\Models\\Event.cs",
-              "ToolTip": "C:\\Users\\franc\\source\\repos\\Events\\Events\\Models\\Event.cs",
-              "RelativeToolTip": "Events\\Models\\Event.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T14:52:28.501Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\franc\\source\\repos\\Events\\Events\\Models\\ViewModels\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Events\\Models\\ViewModels\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\franc\\source\\repos\\Events\\Events\\Models\\ViewModels\\ErrorViewModel.cs",
-              "RelativeToolTip": "Events\\Models\\ViewModels\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T14:51:31.955Z"
             }
           ]
         }
