@@ -14,7 +14,7 @@ namespace Events.Models
         [Required(ErrorMessage = "O Local é obrigatório.")]
         [Display(Name = "Local")]
         public string Location { get; set; }
-        [Required(ErrorMessage = "A capacidade é obrigatória")]
+        [Required(ErrorMessage = "A Capacidade é obrigatória")]
         [Display(Name = "Capacidade")]
         public int Capacity { get; set; }
         [Required(ErrorMessage = "O Valor é obrigatório")]
